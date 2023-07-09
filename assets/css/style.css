@@ -4079,6 +4079,7 @@ About Content Two
   left: 0;
   right: 0;
   background-image: url(../img/about/4.jpg);
+  background-image: image-set(url(../img/about/4.webp));
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4919,14 +4920,17 @@ Home Three Area
 
 .home-three-bg1 {
   background-image: url(../img/home3/1.jpg);
+  background-image: image-set(url(../img/home3/1.webp));
 }
 
 .home-three-bg2 {
   background-image: url(../img/home3/2.jpg);
+  background-image: image-set(url(../img/home3/2.webp));
 }
 
 .home-three-bg3 {
   background-image: url(../img/home3/3.jpg);
+  background-image: image-set(url(../img/home3/3.webp));
 }
 
 .home-three-slider {
@@ -4999,6 +5003,7 @@ Submit Form Area
 
 .submit-form-bg {
   background-image: url(../img/1.jpg);
+  background-image: image-set(url(../img/1.webp));
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
