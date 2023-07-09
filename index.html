@@ -48,7 +48,11 @@
       <div class="mobile-nav">
         <a href="index.html" class="logo">
           <!-- <img src="assets/img/footer-logo.png" alt="Logo" /> -->
-          <img src="assets/img/BWLogo.png" alt="Logo" />
+
+          <picture>
+            <source srcset="assets/img/BWLogo.webp" type="image/webp" />
+            <img loading="lazy" src="assets/img/BWLogo.png" alt="Logo" />
+          </picture>
         </a>
       </div>
 
@@ -60,10 +64,23 @@
               id="navbarSupportedContent"
             >
               <a class="navbar-brand" href="index.html">
-                <img src="assets/img/BWLogo.png" alt="Logo" />
+                <picture>
+                  <source srcset="assets/img/BWLogo.webp" type="image/webp" />
+                  <img loading="lazy" src="assets/img/BWLogo.png" alt="Logo" />
+                </picture>
               </a>
               <a class="navbar-brand-2" href="index.html">
-                <img src="assets/img/logo-small.png" alt="Logo" />
+                <picture>
+                  <source
+                    srcset="assets/img/logo-small.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    src="assets/img/logo-small.png"
+                    alt="Logo"
+                  />
+                </picture>
               </a>
               <ul class="navbar-nav m-auto">
                 <li class="nav-item">
@@ -104,159 +121,6 @@
               </ul>
             </div>
           </nav>
-        </div>
-      </div>
-    </div>
-
-    <div class="sidebar-modal">
-      <div
-        class="modal left fade"
-        id="myModal2"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="myModalLabel2"
-      >
-        <div class="modal-dialog2 modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">
-                  <i class="bx bx-x"></i>
-                </span>
-              </button>
-              <h2 class="modal-title" id="myModalLabel2">
-                <a href="index.html">
-                  <img src="assets/img/logo.png" alt="Logo" />
-                </a>
-              </h2>
-            </div>
-            <div class="modal-body">
-              <div class="sidebar-modal-widget">
-                <h3 class="title">About Us</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, asperiores doloribus eum laboriosam praesentium
-                  delectus unde magni aut perspiciatis cumque deserunt dolore
-                  voluptate, autem pariatur.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, asperiores doloribus eum laboriosam praesentium
-                  delectus unde magni aut perspiciatis cumque deserunt dolore
-                  voluptate, autem pariatur.
-                </p>
-              </div>
-              <div class="sidebar-modal-widget">
-                <h3 class="title">Blogs</h3>
-                <div class="modal-widget-blog">
-                  <ul>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/1.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/2.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/3.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/1.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/2.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/3.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/1.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="blog-details.html">
-                        <img
-                          loading="lazy"
-                          src="assets/img/blog/2.jpg"
-                          alt="Blog Images"
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="sidebar-modal-widget">
-                <h3 class="title">Connect With Us</h3>
-                <ul class="social-list">
-                  <li>
-                    <a href="#">
-                      <i class="bx bxl-facebook"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="bx bxl-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="bx bxl-youtube"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i class="bx bxl-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -339,14 +203,28 @@
                   </li>
                 </ul>
                 <div class="about-offer-img">
-                  <img
-                    loading="lazy"
-                    src="assets/img/logo-bg-white.png"
-                    alt="Images"
-                  />
+                  <picture>
+                    <source
+                      srcset="assets/img/logo-bg-white.webp"
+                      type="image/webp"
+                    />
+                    <img
+                      loading="lazy"
+                      src="assets/img/logo-bg-white.png"
+                      alt="About Us"
+                    />
+                  </picture>
                 </div>
               </div>
-              <img loading="lazy" src="assets/img/about/3.jpg" alt="Images" />
+
+              <picture>
+                <source srcset="assets/img/about/3.webp" type="image/webp" />
+                <img
+                  loading="lazy"
+                  src="assets/img/about/3.jpg"
+                  alt="About Us"
+                />
+              </picture>
               <div class="about-sedule">
                 <ul>
                   <li class="active">
@@ -674,11 +552,17 @@
         <div class="management-slider-two owl-carousel owl-theme pt-45">
           <div class="management-item">
             <div class="management-img">
-              <img
-                loading="lazy"
-                src="assets/img/management/1.jpg"
-                alt="Images"
-              />
+              <picture>
+                <source
+                  srcset="assets/img/management/1.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="assets/img/management/1.jpg"
+                  alt="Images"
+                />
+              </picture>
               <div class="management-content management-content-btl">
                 <span>Equipment</span>
                 <h3>How To Know When It's Time To Change Your Pool Filter</h3>
@@ -695,11 +579,17 @@
           </div>
           <div class="management-item">
             <div class="management-img">
-              <img
-                loading="lazy"
-                src="assets/img/management/2.jpg"
-                alt="Images"
-              />
+              <picture>
+                <source
+                  srcset="assets/img/management/2.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="assets/img/management/2.jpg"
+                  alt="Images"
+                />
+              </picture>
               <div class="management-content management-content-btl">
                 <span>Pool</span>
                 <h3>How To Remove Unsightly Brown Stains From Your Pool</h3>
@@ -716,11 +606,17 @@
           </div>
           <div class="management-item">
             <div class="management-img">
-              <img
-                loading="lazy"
-                src="assets/img/management/3.jpg"
-                alt="Images"
-              />
+              <picture>
+                <source
+                  srcset="assets/img/management/3.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="assets/img/management/3.jpg"
+                  alt="Images"
+                />
+              </picture>
               <div class="management-content management-content-btl">
                 <span>POOL</span>
                 <h3>Why Does Your Pool Turn Green?</h3>
@@ -748,7 +644,11 @@
                 <span>SPECIAL OFFER</span>
                 <h2>GET STARTED WITH BLUE WATERS POOL SERVICE</h2>
               </div>
-              <img loading="lazy" src="assets/img/offer/2.jpg" alt="Images" />
+
+              <picture>
+                <source srcset="assets/img/offer/2.webp" type="image/webp" />
+                <img loading="lazy" src="assets/img/offer/2.jpg" alt="Images" />
+              </picture>
             </div>
           </div>
           <div class="col-lg-5">
@@ -885,11 +785,17 @@
         <div class="feedback-slider owl-carousel owl-theme pt-45">
           <div class="feedback-item">
             <div class="feedback-img">
-              <img
-                loading="lazy"
-                src="assets/img/testimonial/t-1.png"
-                alt="Testimonial Images"
-              />
+              <picture>
+                <source
+                  srcset="assets/img/testimonial/t-1.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="assets/img/testimonial/t-1.png"
+                  alt="Testimonial Image"
+                />
+              </picture>
             </div>
             <div class="feedback-text">
               <h3>David McLean</h3>
@@ -903,11 +809,17 @@
           </div>
           <div class="feedback-item">
             <div class="feedback-img">
-              <img
-                loading="lazy"
-                src="assets/img/testimonial/t-2.png"
-                alt="Testimonial Images"
-              />
+              <picture>
+                <source
+                  srcset="assets/img/testimonial/t-2.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="assets/img/testimonial/t-2.png"
+                  alt="Testimonial Image"
+                />
+              </picture>
             </div>
             <div class="feedback-text">
               <h3>Wonin Lowis</h3>
@@ -921,11 +833,17 @@
           </div>
           <div class="feedback-item">
             <div class="feedback-img">
-              <img
-                loading="lazy"
-                src="assets/img/testimonial/t-1.png"
-                alt="Testimonial Images"
-              />
+              <picture>
+                <source
+                  srcset="assets/img/testimonial/t-1.webp"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  src="assets/img/testimonial/t-1.png"
+                  alt="Testimonial Image"
+                />
+              </picture>
             </div>
             <div class="feedback-text">
               <h3>David McLean</h3>
@@ -1020,56 +938,92 @@
                 <ul>
                   <li>
                     <a href="gallery.html">
-                      <img
-                        loading="lazy"
-                        src="assets/img/gallery/g-1.jpg"
-                        alt="image"
-                      />
+                      <picture>
+                        <source
+                          srcset="assets/img/gallery/g-1.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          loading="lazy"
+                          src="assets/img/gallery/g-1.jpg"
+                          alt="Image"
+                        />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="gallery.html">
-                      <img
-                        loading="lazy"
-                        src="assets/img/gallery/g-2.jpg"
-                        alt="image"
-                      />
+                      <picture>
+                        <source
+                          srcset="assets/img/gallery/g-2.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          loading="lazy"
+                          src="assets/img/gallery/g-2.jpg"
+                          alt="Image"
+                        />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="gallery.html">
-                      <img
-                        loading="lazy"
-                        src="assets/img/gallery/g-3.jpg"
-                        alt="image"
-                      />
+                      <picture>
+                        <source
+                          srcset="assets/img/gallery/g-3.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          loading="lazy"
+                          src="assets/img/gallery/g-3.jpg"
+                          alt="Image"
+                        />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="gallery.html">
-                      <img
-                        loading="lazy"
-                        src="assets/img/gallery/g-4.jpg"
-                        alt="image"
-                      />
+                      <picture>
+                        <source
+                          srcset="assets/img/gallery/g-4.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          loading="lazy"
+                          src="assets/img/gallery/g-4.jpg"
+                          alt="Image"
+                        />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="gallery.html">
-                      <img
-                        loading="lazy"
-                        src="assets/img/gallery/g-5.jpg"
-                        alt="image"
-                      />
+                      <picture>
+                        <source
+                          srcset="assets/img/gallery/g-5.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          loading="lazy"
+                          src="assets/img/gallery/g-5.jpg"
+                          alt="Image"
+                        />
+                      </picture>
                     </a>
                   </li>
                   <li>
                     <a href="gallery.html">
-                      <img
-                        loading="lazy"
-                        src="assets/img/gallery/g-6.jpg"
-                        alt="image"
-                      />
+                      <picture>
+                        <source
+                          srcset="assets/img/gallery/g-6.webp"
+                          type="image/webp"
+                        />
+                        <img
+                          loading="lazy"
+                          src="assets/img/gallery/g-6.jpg"
+                          alt="Image"
+                        />
+                      </picture>
                     </a>
                   </li>
                 </ul>
